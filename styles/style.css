@@ -3,16 +3,16 @@
 
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  background: var(--color-black-1);
-  font-family: "Press Start 2P", cursive;
-  background-color: rgb(2, 2, 2);
-  background-image: url("../images/Space_Stars2.png");
-  overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+min-height: 100vh;
+background: var(--color-black-1);
+font-family: "Press Start 2P", cursive;
+background-color: rgb(2, 2, 2);
+background-image: url("../images/Space_Stars2.png");
+overflow: hidden;
 }
 
 .game-intro {
@@ -23,39 +23,36 @@ body {
 width: 15vw;
 }
 
-
-
 h1{
-  color: #BF4D28;
-  font-size: 4em;
-  line-height: 2em;
-  margin-bottom: 15px;
-  text-shadow: yellow;
-  font-family: "Press Start 2P", cursive;
-  text-shadow: 4px 4px 0 rgba(169, 166, 1, 0.93);
-  
+color: #BF4D28;
+font-size: 4em;
+line-height: 2em;
+margin-bottom: 15px;
+text-shadow: yellow;
+font-family: "Press Start 2P", cursive;
+text-shadow: 4px 4px 0 rgba(169, 166, 1, 0.93); 
 }
 
 h2 {
-  display: flex;
-  text-align: center;
-  font-weight: lighter;
-  font-size: 15px;
-  color: aliceblue;
-  line-height: 25px;
+display: flex;
+text-align: center;
+font-weight: lighter;
+font-size: 15px;
+color: aliceblue;
+line-height: 25px;
 }
 
 h3 {
-  color: yellowgreen;
+color: yellowgreen;
 }
 
 h4 {
-  color: #BF4D28;
-  text-shadow: yellow;
-  margin: 0;
-  border: 0;
-  size: 20px;
-  text-align: center;
+color: #BF4D28;
+text-shadow: yellow;
+margin: 0;
+border: 0;
+size: 20px;
+text-align: center;
 }
 
 p {
@@ -63,27 +60,21 @@ color: blue;
 }
 
 body button {
-  font-size: 30px;
-  background-color: #870007;
-  color: #fff;
-  padding: 20px 40px;
-  border: 0;
-  box-shadow: 0;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  font-family: "Press Start 2P", cursive;
-  align-self: center;
+font-size: 30px;
+background-color: #870007;
+color: #fff;
+padding: 20px 40px;
+border: 0;
+box-shadow: 0;
+border-radius: 5px;
+margin-bottom: 20px;
+font-family: "Press Start 2P", cursive;
+align-self: center;
 }
 
 
 #game-board {
-  display: none;
-  padding: 20px 0px;
-  background-color: rgb(21, 26, 47);
+display: none;
+padding: 20px 0px;
+background-color: rgb(21, 26, 47);
 }
-/* 
- #restart button {
-  display: flex;
-  align-self: center;
-  flex-direction: column;
-} */

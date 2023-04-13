@@ -42,6 +42,9 @@ beerImg.src = './images/beer.png'
 const groguImg = new Image()
 groguImg.src = './images/grogu.png'
 
+const mandoImg = new Image()
+mandoImg.src =  './images/mando.png'
+
 
 const gameSound = new Audio('sounds/theFoyer.wav')
 gameSound.volume = 0.1;
@@ -72,9 +75,11 @@ let randomY = Math.floor(Math.random() * (max - min + 1) + min);
 return randomY;
 }
     
-let obstaclesArr = [ { Image: mushroomImg, x:800,y: randomYPlacement(), width: 80, height: 80 },
+let obstaclesArr = [
+{ Image: mushroomImg, x:800,y: randomYPlacement(), width: 80, height: 80 },
 { Image: escobarImg, x: 1000, y: randomYPlacement(), width: 250, height: 150 },
-{ Image: groguImg, x: 800, y: randomYPlacement(), width: 150, height: 150 }
+{ Image: groguImg, x: 800, y: randomYPlacement(), width: 150, height: 150 },
+{Image: mandoImg, x: 900, y: randomYPlacement(), width: 150, height: 100 }
 ];   
 let bulletsArr = []; 
 
@@ -115,6 +120,7 @@ playerHeight + playerY > obstaclesArr[i].y
 ) {
 isGameOver = true;
 } 
+
         
 if (
 playerX < beerX + beerWidth &&
@@ -123,7 +129,6 @@ playerY < beerY + beerHeight &&
 playerHeight + playerY > beerY
 ) {
 score++
-console.log(score)
 beerX = 1000;
 beerY = randomYPlacement()
 scoreElement.innerHTML = score

@@ -1,6 +1,7 @@
 #Space-cal- 
 
-https://github.com/HebaSakrH/Space-cal-.git (https://github.com/HebaSakrH/Space-cal-.git)
+
+Game link: https://hebasakrh.github.io/Pedro-/
 
 ## Description
 Space-cal is a game where Pedro Pascal has to travel through space horizontally and dodge obstacles "mushrooms, baby Grougu" and scores when he hits "Beer". The game ends when Pedro's hits and obstacle.
@@ -35,9 +36,5 @@ Drawing main character.
 Initial key listeners to move the main character. 
 Drawing obstacles.
 Start collision points. 
-
-URLs
-
-Game link: https://hebasakrh.github.io/Pedro-/
 
 
