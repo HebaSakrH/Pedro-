@@ -29,6 +29,7 @@ JavaScript
 
 
 
+
 ## Task
 _List of tasks in order of priority_
 Installing game board background.
@@ -37,4 +38,8 @@ Initial key listeners to move the main character.
 Drawing obstacles.
 Start collision points. 
 
+
+#Links 
+
+Slideshow: https://docs.google.com/presentation/d/1QO1o4DM0bScIeVXSJPY7V2A1sMzGTi3D/edit#slide=id.p1
 
