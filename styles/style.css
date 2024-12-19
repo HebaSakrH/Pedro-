@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--color-black-1);
+  font-family: "Press Start 2P", cursive;
+  background-color: rgb(2, 2, 2);
+  background-image: url("../images/Space_Stars2.png");
+  
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.game-intro,
+#game-board {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 15vw;
+}
+
+h1 {
+  color: #920192;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-shadow: 4px 4px 0 rgba(232, 228, 9, 0.93);
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1rem;
+  color: aliceblue;
+  line-height: 1.5;
+}
+
+h3 {
+  color: yellowgreen;
+  text-align: center;
+}
+
+h4 {
+  color: #ff2f00;
+  font-size: 1.25rem;
+  text-shadow: 2px 2px 0 rgb(175, 175, 3);
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  color: blue;
+  text-align: center;
+}
+
+body button {
+  font-size: 1.55rem;
+  background-color: #870007;
+  color: #fff;
+  padding: 1.25rem 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: bold,"Press Start 2P", cursive;
+  align-self: center;
+}
+
+#game-board {
+  display: none;
+  padding: 20px;
+  background-color: rgb(3, 3, 3);
+}
+
+#score-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: yellow;
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  z-index: 10; /* Make sure it's above other elements */
+}
+
+#score {
+  font-weight: bold;
+}
+
